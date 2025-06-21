@@ -31,10 +31,10 @@ This task implements both using `HttpResponse`.
 ## 📁 Project Structure
 Task_2_Static_Dynamic_URLs/
 ├── NewProject/
-│ └── urls.py # Project URL configuration
+│ └── urls.py
 ├── NewApp/
-│ └── views.py # View functions
-└── README.md # This file
+│ └── views.py
+└── README.md
 
 ## ▶️ How to Run
 ### Run the server:

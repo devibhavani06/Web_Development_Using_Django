@@ -31,10 +31,27 @@ This task implements both using `HttpResponse`.
 ## 📁 Project Structure
 Task_2_Static_Dynamic_URLs/
 ├── NewProject/
+| └── settings.py
 │ └── urls.py
 ├── NewApp/
 │ └── views.py
 └── README.md
+
+### 🔧 settings.py
+
+- The `settings.py` file contains all the project configurations, such as installed apps and middleware.
+- It ensures that `NewApp` is registered properly so Django can recognize its views and models.
+
+### 🌐 urls.py
+
+- The `urls.py` file maps URL paths to view functions using Django's `path()` function.
+- It connects static (`/sta/`) and dynamic (`/dyn/<name>/<id>/`) routes to their respective view logic.
+
+### 🧠 views.py
+
+- The `views.py` file contains the logic that responds to HTTP requests.
+- This task includes two views: `static_url` for a fixed message and `dynamic_url` that uses parameters from the URL.
+
 
 ## ▶️ How to Run
 ### Run the server:
